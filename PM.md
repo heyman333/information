@@ -29,7 +29,6 @@
   ![속도비교](https://cdn-images-1.medium.com/max/1600/1*lYNSr1oI_PE6umJuOVgxmA.png)
   	- 같은 패키지를 다운 받았을 때 비교 #2 (With Cache & With rock file)
 	
-  
 ```sh
 # via npm 
 Run #1 ================================
@@ -86,7 +85,7 @@ has-flag "^1.0.0"
 
 > npm의 lock 파일의 형태
 	
-```sh
+```
 {
   "name": "react-example",
   "version": "1.0.0",
