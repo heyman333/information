@@ -28,8 +28,9 @@
 	- 같은 패키지를 다운 받았을 때 비교  
   ![속도비교](https://cdn-images-1.medium.com/max/1600/1*lYNSr1oI_PE6umJuOVgxmA.png)
   	- 같은 패키지를 다운 받았을 때 비교 #2 (With Cache & With rock file)
+	
   
-		```sh
+```sh
 # via npm 
 Run #1 ================================
 added 1065 packages in 17.319s
@@ -48,7 +49,7 @@ user0m25.949s
 sys0m10.757s
 ```
 
-		```sh
+```sh
 # via yarn 
 Run #1 ================================
 Done in 8.43s.
@@ -71,7 +72,7 @@ sys0m6.018s
   - `determinism`을 보장하는 것은 모두 두 패키지 모두 `lock`파일에 의존
   - `yarn`의 `lock`파일의 형태 
 
-	  ```sh
+```sh
 has-flag@^1.0.0:
 version "1.0.0"
 resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-1.0.0.tgz#9d9e793165ce017a00f00418c43f942a7b1d11fa"
@@ -83,7 +84,7 @@ has-flag "^1.0.0"
 ```  
 	- `npm`의 `lock` 파일의 형태 
 	  
-		```sh
+```sh
 {
   "name": "react-example",
   "version": "1.0.0",
@@ -106,9 +107,6 @@ has-flag "^1.0.0"
 
  - `yarn`과 `npm`에서 `determinism`은 알고리즘은 서로 다르고 위 파일처럼 디펜던시를 기술하는 방법도 서로 다르다.
  -  `determinism` 측면에서는 좀 더 밀집하고 견고한 구조로 `lock`파일을 유지 하고 `hoisting`의 정확성을 가지고 있는 있는 `npm`이 더욱 유리하다고 양측 문서에서 설명하고 있다.
-
-
-
 
 
 
