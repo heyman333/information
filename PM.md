@@ -66,9 +66,9 @@ real0m8.560s
 user0m6.628s
 sys0m6.018s
 ```
- * determinism
-  - 자바 스크립트 패키지 관리의 맥락에서 `determinism` package.json과 companion lock 파일이 주어지면 항상 정확히 동일한 node_modules 폴더를 얻는 것으로 정의
-  - `determinism`을 보장하는 것은 모두 두 패키지 모두 `lock`파일에 의존
+* determinism
+	- 자바 스크립트 패키지 관리의 맥락에서 `determinism` package.json과 companion lock 파일이 주어지면 항상 정확히 동일한 node_modules 폴더를 얻는 것으로 정의
+	- `determinism`을 보장하는 것은 모두 두 패키지 모두 `lock`파일에 의존
   
 > yarn 의 lock 파일의 형태 
 
@@ -105,7 +105,6 @@ has-flag "^1.0.0"
 }
 }
 ```
-
  - `yarn`과 `npm`에서 `determinism`은 알고리즘은 서로 다르고 위 파일처럼 디펜던시를 기술하는 방법도 서로 다르다.
  -  `determinism` 측면에서는 좀 더 밀집하고 견고한 구조로 `lock`파일을 유지 하고 `hoisting`의 정확성을 가지고 있는 있는 `npm`이 더욱 유리하다고 양측 문서에서 설명하고 있다.
 
