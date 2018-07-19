@@ -70,7 +70,8 @@ sys0m6.018s
  * determinism
   - 자바 스크립트 패키지 관리의 맥락에서 `determinism` package.json과 companion lock 파일이 주어지면 항상 정확히 동일한 node_modules 폴더를 얻는 것으로 정의
   - `determinism`을 보장하는 것은 모두 두 패키지 모두 `lock`파일에 의존
-  - `yarn`의 `lock`파일의 형태 
+  
+> `yarn`의 `lock`파일의 형태 
 
 ```sh
 has-flag@^1.0.0:
@@ -81,9 +82,10 @@ version "3.2.3"
 resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-3.2.3.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
 dependencies:
 has-flag "^1.0.0" 
-```  
-	- `npm`의 `lock` 파일의 형태 
-	  
+```
+
+> `npm`의 `lock`파일의 형태
+	
 ```sh
 {
   "name": "react-example",
