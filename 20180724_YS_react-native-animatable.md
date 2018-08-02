@@ -53,7 +53,7 @@ Declarative transitions and animations for React Native
  
  - Spinning Text using `react-native-animatable`
 
-	```js
+ ```js
 	 import * as Animatable from 'react-native-animatable';
 	
      <Animatable.Text
@@ -64,7 +64,7 @@ Declarative transitions and animations for React Native
      >
        Spinning Text!
      </Animatable.Text>
-	```
+  ```
 	
 ![sample image](https://raw.githubusercontent.com/heyman333/information/master/images/ezgif.com-video-to-gif-4.gif)
 
