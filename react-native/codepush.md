@@ -20,8 +20,7 @@
 
 ### 주의점
 
-1.  앱을 릴리즈 하기전에(빌드 전에) 코드푸쉬를 업데이트 해놔야 최초 앱 설치 시 불필요한 다운로드를 막을 수 있음
-2.  production에 코드푸쉬를 하기 전에 반드시 staging에서 코드푸쉬 적용 테스트 후 staging -> production으로 promote 할 것
+1.  production에 코드푸쉬를 하기 전에 반드시 staging에서 코드푸쉬 적용 테스트 후 staging -> production으로 promote 할 것
 
 ### Reference
 
